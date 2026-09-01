@@ -1,0 +1,14 @@
+title: Local Wiki Demo
+description: A local Jekyll website with converted wiki links
+
+baseurl: ""
+
+markdown: kramdown
+
+wikiToJekyll:
+  user_name: example
+  repository_name: my-project
+  wiki_dest: wiki
+
+  # Alternatively, you could use:
+  # wiki_repository_url: https://github.com/example/my-project.wiki.git
